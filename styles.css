@@ -53,37 +53,15 @@ body {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
   color: var(--umber);
   text-decoration: none;
 }
 
 .brand-logo {
-  width: clamp(2.2rem, 5vw, 3rem);
-  height: clamp(2.2rem, 5vw, 3rem);
+  width: clamp(180px, 30vw, 380px);
+  height: auto;
+  max-height: 118px;
   object-fit: contain;
-  border-radius: 50%;
-  border: 1px solid var(--line);
-  background: var(--white);
-  padding: 0.25rem;
-}
-
-.brand-text {
-  display: inline-flex;
-  flex-direction: column;
-  line-height: 0.9;
-  text-transform: uppercase;
-  letter-spacing: 0.11em;
-}
-
-.brand-top,
-.brand-bottom {
-  font-family: "Cormorant Garamond", serif;
-  font-size: clamp(1.2rem, 2.6vw, 1.9rem);
-}
-
-.brand-bottom {
-  color: var(--blush);
 }
 
 .section {
@@ -373,8 +351,8 @@ input {
   }
 
   .brand-logo {
-    width: 2.2rem;
-    height: 2.2rem;
+    width: min(58vw, 260px);
+    max-height: 88px;
   }
 
   .floral {
