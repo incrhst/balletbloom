@@ -42,6 +42,11 @@ body {
   margin: 0 auto;
 }
 
+.header-wrap {
+  background: var(--cream);
+  border-bottom: 1px solid rgba(92, 53, 53, 0.08);
+}
+
 .site-header {
   display: flex;
   align-items: center;
