@@ -103,6 +103,20 @@ main {
   opacity: 0.15;
 }
 
+.floral-cards-left {
+  top: 52%;
+  left: -10rem;
+  transform: rotate(45deg) scale(0.8);
+  opacity: 0.18;
+}
+
+.floral-cards-right {
+  top: 60%;
+  right: -8rem;
+  transform: rotate(-38deg) scale(0.85);
+  opacity: 0.18;
+}
+
 .floral-cta {
   bottom: -4rem;
   right: -5rem;
@@ -371,7 +385,9 @@ input {
     transform: rotate(10deg);
   }
 
-  .floral-story {
+  .floral-story,
+  .floral-cards-left,
+  .floral-cards-right {
     display: none;
   }
 
